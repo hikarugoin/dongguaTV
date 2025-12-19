@@ -15,6 +15,30 @@
 - 🎨 **简洁界面** - 响应式设计，支持PC/移动端完美适配
 - 🔐 **后台管理** - 支持站点开关配置，自定义资源源
 - 📊 **数据持久化** - JSON数据库存储，支持自定义配置
+  AI修改后使用防范
+  使用方法
+
+将脚本上传到服务器，例如保存为 deploy_full.sh
+
+赋予执行权限：
+
+chmod +x deploy_full.sh
+
+
+执行脚本：
+
+sudo ./deploy_full.sh
+
+
+输入域名（例：hikarugoin.dynv6.net）
+
+输入你的 TMDb API Key（如：9e6642a0e7c7d18289407452f461e988）
+
+等待脚本完成，自动配置 PM2 + Nginx + HTTPS + 防火墙
+
+完成后访问：
+
+https://hikarugoin.dynv6.net
 
 ## 🚀 快速开始
 
